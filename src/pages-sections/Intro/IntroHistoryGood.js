@@ -62,7 +62,9 @@ export default function IntroHistory({ user, lectures }) {
 
   const deleteDrug = async (id) => {
     try {
-      await axios.delete(`/rest/history/${id}`)
+      // insert your code here to delete row //
+
+      // your code ends here //
       alert('삭제되었습니다.');
       window.location.reload(true);
     } catch (e) {

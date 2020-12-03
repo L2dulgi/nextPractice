@@ -15,7 +15,7 @@ export default function Search() {
     const router = useRouter();
     const {search} = router.query;
 
-    if (!search) {
+    if (!search) { 
         return null;
     }
 

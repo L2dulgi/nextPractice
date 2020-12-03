@@ -14,17 +14,22 @@ import GridItem from "components/Grid/GridItem.js";
 
 export default function Intro(props) {
   const { user } = props;
-  const [good, setGood] = useState([]);
-  const [bad, setBad] = useState([]);
+  // insert your code here //
+
+  // your code ends here //
   
   const fetchData = async() => {
     const res = await axios.get(`/rest/history/good`);
     if(res){
-      setGood(res.data);
+      // insert your code here //
+  
+      // your code ends here //
     }
     const res1 = await axios.get(`/rest/history/bad`);
     if(res1){
-      setBad(res1.data);
+      // insert your code here //
+  
+      // your code ends here //
     }
   }
   
