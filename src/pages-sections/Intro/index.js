@@ -14,7 +14,7 @@ import GridItem from "components/Grid/GridItem.js";
 
 export default function Intro(props) {
   const { user } = props;
-  // insert your code here //
+  // insert your code here state name is good and bad //
 
   // your code ends here //
   
