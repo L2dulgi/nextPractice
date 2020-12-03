@@ -1,26 +1,3 @@
 {
-  "development": {
-    "port": 3000,
-    "db": {
-      "host": "db.scg.skku.ac.kr",
-      "username": "scg",
-      "password": "@dnjrtlf(*&",
-      "database": "practice_pharm",
-      "multipleStatements": true,
-      "timezone": "+09:00",
-      "dialectOptions": {
-        "dateStrings": true,
-        "typeCast": true
-      },
-      "dialect": "mysql",
-      "port": "33306",
-      "define": {
-        "charset": "utf8",
-        "collate": "utf8_general_ci"
-      }
-    },
-    "path": {
-      "index": "/../dist_dev"
-    }
-  }
+ 
 }
